@@ -1,0 +1,20 @@
+Tests
+* Write more test cases because of the current tests does not cover much of the code.
+* Create API documentation.
+
+Database
+* Replace MockDatabase class with the real database and add the data there.
+
+Container
+* Add Dockerfile in the root directory that you can build a docker image. After that you can move the image in your production server.
+
+Error handling
+* Add a better error handling because now it does not follow functional style in every places.
+
+Spring profiles
+* Add a different dev and prod profiles in application.yaml file.
+
+Other
+* Developer Tools dependency would be nice because it's contains auto reload.
+* Use Spring Security to secure url endpoints.
+* Add Spring Boot Actuator that you can get useful information from your application. Then you can also save custom Metrics data.
